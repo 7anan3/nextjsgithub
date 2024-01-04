@@ -1,7 +1,7 @@
 import { createContext, useState } from "react";
 import SearchBar from "./SearchBar";
 
-export const AppContext = createContext();
+export const AppContext = createContext({});
 
 export default function GithubUsers() {
   const [user, setUser] = useState(null);
